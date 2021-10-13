@@ -5,12 +5,6 @@ from math import e
 def function1 (x,r):
     return (x*(np.exp(r-r*x)))
 
-
-#Exercise 2:
-#print("For obtaining the result for this function I will need two numbers:")
-#x = int(input(f"First number: "))
-#r = int(input(f"Second number: "))
-
 def function2 (x,r):
     data =[] #records
     for i in range(100):
@@ -28,6 +22,6 @@ def function2 (x,r):
     plt.legend(['y = x*e^(r*(1-x))'])
     plt.show()
 
-#test cases fro exercise 2
+#test cases
 x=0.5
 function2(x, 2.8)
