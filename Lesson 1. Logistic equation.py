@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 #Exercise 1:
-def function1 (r, x):
+def function1 (x, r):
     return r*x*(1-x)
 
 print("For obtaining the result for this function I will need two numbers:")
