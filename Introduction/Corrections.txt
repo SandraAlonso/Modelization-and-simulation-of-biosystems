@@ -1,0 +1,5 @@
+Excelent job!
+
+I see you are familiar with the logistic equation. However, note that the logistic equation models time as a continuum (i.e. it uses differential equations) while here we consider discrete generations (this is called a logistic map). Despite their apparent similarity, considering discrete (instead of continuous or overlapping) generations produces some fundamental differences in the dynamics. We will talk more about that in the next class.
+
+I miss a direct comparison  of x0=0.4 and x0=0.5 when r=3.5 and r=3.8. I wonder if you forgot or intentionally omitted that as they do not support the idea that the initial condition does not matter. Here is another interesting topic for deeper study that we will see during the class.
