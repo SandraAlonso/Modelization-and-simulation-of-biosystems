@@ -11,8 +11,8 @@ th<-0.25
 sp<-matrix(0,25,25)
 spm<-matrix(0,25,25)
 
-lat<-round(runif(305,1,25))     # create 3025 random numbers between 1 and 25. This will be coord x
-lon<-round(runif(305,1,25))     # create 3025 random numbers between 1 and 25. This will be coord y
+lat<-round(runif(305,1,25))     # create 305 random numbers between 1 and 25. This will be coord x
+lon<-round(runif(305,1,25))     # create 305 random numbers between 1 and 25. This will be coord y
 coords<- cbind(c(lat),c(lon))   # join lat and lon in 2 columns
 sp[coords]<-1                   # if (lat, lon) are included in coords, then put "1" in the matrix
 spm<-sp                         # copy matrix in the mirror matrix
